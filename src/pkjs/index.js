@@ -54,14 +54,14 @@ function fetchWeather(latitude, longitude) {
                     else {
                         // Otherwise, convert temperature to Celsius
                         temperature = Math.round(tempResult - 273.15);
-                    }		 
+                    }
                     condition = response.weather[0].id;
                     sunrise = response.sys.sunrise;
                     sunset = response.sys.sunset;
 
                     console.log("Temperature: " + temperature + " Condition: " + condition + " Sunrise: " + sunrise +
                               " Sunset: " + sunset + " Now: " + Date.now() / 1000);
-                              
+
                     Pebble.sendAppMessage({
                         "condition": condition,
                         "temperature": temperature,
