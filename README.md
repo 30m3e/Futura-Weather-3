@@ -1,7 +1,7 @@
 Futura Weather 3 (Pebble SDK 3.0)
 =================================
 
-This is a experimental testing of me who is learning programming.
+This is an experimental testing of me who is learning programming.
 
 To do:
  - Add error handling features as in the [SDK 1.x versions](https://github.com/Niknam/futura-weather)
